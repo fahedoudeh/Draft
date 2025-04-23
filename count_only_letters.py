@@ -33,3 +33,11 @@ for letter, count in letter_counter_dict.items():
 # if the letter is not in the dictionary add it and set thevalue to 1
 # if the letter is in the dictionary add 1 to the value
 # print the dictionary
+print("$!#$&*" * 10)
+letter_counter_dict = {}
+for letter in alphabet:
+   
+       letter_counter_dict[letter] = letter_counter_dict.get(letter, 0) + 1
+
+for letter, count in letter_counter_dict.items():
+    print(f"{letter.title()}: {count}")
